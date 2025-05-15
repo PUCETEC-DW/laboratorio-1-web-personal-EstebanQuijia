@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Selectores combinados y estructura */
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+header {
+  text-align: center;
+}
+
+/* Selector combinado: nav ul li */
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Selector combinado: nav ul li a */
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Selector descendente: main section h2 */
+main section h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Footer centrado */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
