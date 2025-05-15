@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Selectores combinados y estructura */
+header {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+main section h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.selector1 {
+  color: red;
+}
+
+.selector2 {
+  color: blue;
+}
